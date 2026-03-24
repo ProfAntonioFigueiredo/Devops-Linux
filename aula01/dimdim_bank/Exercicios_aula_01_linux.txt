@@ -1,0 +1,135 @@
+    1  clear
+    2  ls -la
+    3  clear
+    4  ls
+    5  ls -help
+    6  ls --help
+    7  ls -la
+    8  pwd
+    9  clear
+   10  cd /
+   11  cd ..
+   12  cd ~
+   13  sudo cd /
+   14  cd ../
+   15  cd ..
+   16  sudo su .
+   17  sudo root
+   18  sudo su
+   19  clear
+   20  git
+   21  clear
+   22  cat /etc/os-release 
+   23  git clone https://github.com/ProfAntonioFigueiredo/Devops-Linux.git
+   24  ls
+   25  echo "# Devops-Linux" >> README.md
+   26  git init
+   27  git add README.md
+   28  git commit -m "first commit"
+   29  git branch -M main
+   30  git remote add origin https://github.com/ProfAntonioFigueiredo/Devops-Linux.git
+   31  git push -u origin main
+   32  clear
+   33  git config user.name "Antonio Figueiredo"
+   34  git config.email "profantonio.figueiredo@fiap.com.br"
+   35  git config user.email "profantonio.figueiredo@fiap.com.br"
+   36  clear
+   37  echo "# Devops-Linux" >> README.md
+   38  git init
+   39  git add README.md
+   40  git commit -m "first commit"
+   41  git branch -M main
+   42  git remote add origin https://github.com/ProfAntonioFigueiredo/Devops-Linux.git
+   43  git push -u origin main
+   44  clear
+   45  echo "# Devops-Linux" >> README.md
+   46  git init
+   47  git add README.md
+   48  git commit -m "first commit"
+   49  git branch -M main
+   50  git remote add origin https://github.com/ProfAntonioFigueiredo/Devops-Linux.git
+   51  git push -u origin main
+   52  echo "# Devops-Linux" >> README.md
+   53  git init
+   54  git add README.md
+   55  git commit -m "first commit"
+   56  git branch -M main
+   57  git remote add origin https://github.com/ProfAntonioFigueiredo/Devops-Linux.git
+   58  git push -u origin main
+   59  clear
+   60  ls
+   61  cd Devops-Linux/
+   62  l
+   63  git branch
+   64  git checkout "Aulas-Linux-Devops"
+   65  git checkout -b "Aulas-Linux-Devops"
+   66  cd ..
+   67  pwd
+   68  ls -lah
+   69  cd Devops-Linux/
+   70  mkdir aula01
+   71  ls -la
+   72  clear
+   73  ls -la
+   74  cd aula01/
+   75  touch notas.txt
+   76  ls -lah
+   77  clear
+   78  cat /etc/os-release 
+   79  mkdir dimdim_bank
+   80  cd dimdim_bank/
+   81  mkdir clientes
+   82  touch cliente_001_joao_silva.txt cliente_002_maria_santos.txt cliente_003_pedro_oliveira.txt​
+   83  ls -la cliente
+   84  cd clientes/
+   85  ls -la
+   86  clear
+   87  touch cliente_001_joao_silva.txt cliente_002_maria_santos.txt cliente_003_pedro_oliveira.txt​
+   88  ls -la
+   89  cd ..
+   90  mkdir clientes transacoes relatorios backup logs
+   91  ls -la
+   92  rm -rf *.txt
+   93  ls -la
+   94  clear
+   95  rm -rf *.txt
+   96  ls -la
+   97  rm -rf cliente_003_pedro_oliveira.txt​ 
+   98  ls -la
+   99  clear
+  100  ls -la
+  101  cd clientes/
+  102  ls -l
+  103  cd ..
+  104  cd transacoes/
+  105  touch transacoes_janeiro_2025.txt transacoes_fevereiro_2025.txt​
+  106  ls -l
+  107  cd ..
+  108  clear
+  109  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+  110  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ~/Devops-Linux/aula01/dimdim_bank/clientes/cliente_001_joao_silva.txt 
+  111  cat ~/Devops-Linux/aula01/dimdim_bank/clientes/cliente_001_joao_silva.txt 
+  112  clear
+  113  echo "Maria Santos - CPF: 987.654.321-00 - Conta: 98765-4 - Saldo: R$ 2.800,00" > ../clientes/cliente_002_maria_santos.txt ​
+  114  echo "Maria Santos - CPF: 987.654.321-00 - Conta: 98765-4 - Saldo: R$ 2.800,00" > clientes/cliente_002_maria_santos.txt ​
+  115  cat clientes/cliente_002_maria_santos.txt
+  116  echo "Pedro Oliveira - CPF: 456.789.123-00 - Conta: 45678-9 - Saldo: R$ 950,00" > clientes/cliente_003_pedro_oliveira.txt​
+  117  echo "01/01/2025 - Transferência - João Silva -> Maria Santos - R$ 200,00" > transacoes_janeiro_2025.txt ​
+  118  echo "02/01/2025 - Depósito - Pedro Oliveira - R$ 500,00" >> transacoes_janeiro_2025.txt ​
+  119  echo "03/01/2025 - Saque - João Silva - R$ 100,00" >> transacoes_janeiro_2025.txt ​
+  120  echo "15/02/2025 - PIX - Maria Santos -> Pedro Oliveira - R$ 150,00" > transacoes_fevereiro_2025.txt​
+  121  clear
+  122  tree
+  123  sudo apt install tree
+  124  tree
+  125  sudo apt install tree
+  126  clear
+  127  ls -l
+  128  cat transacoes/transacoes_janeiro_2025.txt 
+  129  ls transacoes
+  130  cat transacoes_fevereiro_2025.txt​ 
+  131  cat transacoes_janeiro_2025.txt 
+  132  clear
+  133  history
+  134  clear
+  135  history >Exercicios_aula_01_linux.txt
