@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  bd_portalweb:
+    image: mysql:8.0
+    container_name: bd_portalweb
+    environment:
+      MYSQL_ROOT_PASSWORD: "@Fiap2tds2023"
+      MYSQL_DATABASE: bdfiap
+      MYSQL_USER: fiap
+      MYSQL_PASSWORD: "@Fiap2tds2023"
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./logdata:/var/log/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+
+  portalweb:
+    build: .
+    image: portalweb:latest
+    depends_on:
+      bd_portalweb:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://bd_portalweb:3306/bdfiap?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: fiap
+      SPRING_DATASOURCE_PASSWORD: "@Fiap2tds2023"
+    restart: on-failure
+
+volumes:
+  db_data:
+  logdata:

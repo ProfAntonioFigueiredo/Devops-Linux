@@ -1,0 +1,7 @@
+br\fiap\portal\service\EntregaWebhookService.class
+br\fiap\portal\controller\EntregaController.class
+br\fiap\portal\model\TAluno.class
+br\fiap\portal\repository\TAlunoRepository.class
+br\fiap\portal\controller\TAlunoController.class
+br\fiap\portal\dto\EntregaDesafioRequest.class
+br\fiap\portal\PortalwebApplication.class
