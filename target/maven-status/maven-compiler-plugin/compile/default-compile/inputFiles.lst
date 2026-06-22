@@ -1,7 +1,7 @@
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/model/TAluno.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/controller/EntregaController.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/PortalwebApplication.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/repository/TAlunoRepository.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/controller/TAlunoController.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/service/EntregaWebhookService.java
-/Users/antoniosergiorfigueiredo/Downloads/2TDSPG/Devops-Linux/src/main/java/br/fiap/portal/dto/EntregaDesafioRequest.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/repository/TAlunoRepository.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/controller/EntregaController.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/dto/EntregaDesafioRequest.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/controller/TAlunoController.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/PortalwebApplication.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/model/TAluno.java
+/Users/antoniosergiorfigueiredo/Documents/AI-Coraçao/Documents-Trabalhos/MBA_AIEnginnering/Devops-Linux/src/main/java/br/fiap/portal/service/EntregaWebhookService.java
